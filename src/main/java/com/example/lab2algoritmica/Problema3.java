@@ -11,7 +11,7 @@ public class Problema3 {
     public static void main(String[] args) {
         int[] arr = {3, 6, 2, 4, 9, 50};
         int index=0;
-        int valoare =9;
+        int valoare =4;
         System.out.println("Tabloul initial: " + Arrays.toString(arr));
 
         arr = stergereNumarDupaIndex(arr, index);
@@ -23,7 +23,7 @@ public class Problema3 {
 
     public static int[] stergereNumarDupaIndex(int[] arr, int index) {
         for (int i = index; i < arr.length - 1; i++) {
-            arr[i] = arr[i + 1];  // mutam elm cu o poz la stanga
+            arr[i] = arr[i + 1];
         }
         arr = Arrays.copyOf(arr, arr.length - 1);
         return arr;
@@ -40,7 +40,6 @@ public class Problema3 {
         for (int i = index; i < arr.length - 1; i++) {
             arr[i] = arr[i + 1];
         }
-
         arr = Arrays.copyOf(arr, arr.length - 1);
         return arr;
     }
