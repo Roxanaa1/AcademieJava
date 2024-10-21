@@ -1,4 +1,4 @@
-package com.example.lab1.tema;
+package com.example.lab1algoritmica.tema;
 
 public class Ex3
 {

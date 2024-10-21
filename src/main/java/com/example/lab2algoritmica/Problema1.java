@@ -1,4 +1,4 @@
-package com.example.lab2;
+package com.example.lab2algoritmica;
 
 public class Problema1 {
     /* Construiti un program responsabil de a indentifica indexul de echilibru dint un tablou de numere intregi

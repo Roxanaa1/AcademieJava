@@ -1,4 +1,4 @@
-package com.example.lab2;
+package com.example.lab2algoritmica;
 
 public class Problema2 {
     /* Construiți un program ce identifică toți "liderii" dintr-un tablou de numere întregi.
@@ -30,4 +30,9 @@ public class Problema2 {
         }
         return lideri;
     }
+
+    /*alta varianta */
+
+
+
 }

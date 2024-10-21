@@ -1,6 +1,4 @@
-package com.example.lab1.tema;
-
-import java.util.Arrays;
+package com.example.lab1algoritmica.tema;
 
 public class Ex1
 {

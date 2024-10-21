@@ -1,4 +1,4 @@
-package com.example.lab1;
+package com.example.lab1algoritmica;
 
 public class Palindrom
 {
