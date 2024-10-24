@@ -35,3 +35,19 @@ public class Problema1 {
         }
     }
 }
+
+/*
+* public static int[] schimba(int k,int [] arr)
+ {
+ int temp=0;
+ for(int i=0;i<k;i++)
+* {
+* for(int j=arr.length-1;j>0;j--)
+* {
+* temp=arr[j-1];
+* arr[j-1]=arr[j];
+* arr[j]=temp;
+* }
+* }
+* return arr;
+* }*/

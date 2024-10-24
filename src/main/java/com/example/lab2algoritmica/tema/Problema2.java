@@ -11,7 +11,7 @@ public class Problema2 {
     trebuie să acoperiți și cazul în care nu mai pot exista locuri în tablou.
      */
     public static void main(String[] args) {
-        int[] arr = {3, 39, 6, 10, 9};
+        int[] arr = {3, 39, 6, 12, 0,0};
         System.out.println("Tabloul initial : " + Arrays.toString(arr));
         arr = adaugareNumar(arr, 7);
         System.out.println("Tabloul dupa adaugarea numarului : " + Arrays.toString(arr));
